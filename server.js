@@ -25,6 +25,7 @@ const allowedOrigins = [
     'https://localhost:443',
     'http://54.215.176.218:3000',
     'https://platform.rampex.in',
+    'https://presidiochallenge.vercel.app',
     // Add more origins as needed
 ];
 

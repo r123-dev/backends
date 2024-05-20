@@ -83,7 +83,7 @@ const register = async (req, res) => {
             // Save the user to the database
             existingUser.confirmationToken = token;
 
-            // Email content with confirmation link
+          //  Email content with confirmation link
             const mailOptions = {
                 from: 'rohanmourya879@gmail.com', // Sender address
                 to: user_email, // Receiver's email
@@ -107,7 +107,7 @@ const register = async (req, res) => {
             </html>`, // Email body
             };
 
-            // Send the email
+          //  Send the email
             transporter.sendMail(mailOptions, async (error, info) => {
                 if (error) {
                     console.error('Error sending email:', error);
