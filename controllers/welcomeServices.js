@@ -85,7 +85,7 @@ const register = async (req, res) => {
 
             // Email content with confirmation link
             const mailOptions = {
-                from: 'jayesh007va@gmail.com', // Sender address
+                from: 'rohanmourya879@gmail.com', // Sender address
                 to: user_email, // Receiver's email
                 subject: 'Registration Confirmation', // Email subject
                 html: `<html>
@@ -139,7 +139,7 @@ const register = async (req, res) => {
 
             // Email content with confirmation link
             const mailOptions = {
-                from: 'jayesh007va@gmail.com', // Sender address
+                from: 'rohanmourya879@gmail.com', // Sender address
                 to: user_email, // Receiver's email
                 subject: 'Registration Confirmation', // Email subject
                 html: `<html>
